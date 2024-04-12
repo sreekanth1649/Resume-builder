@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="index.css">
+    
+
+
+    <title>personalinfo</title>
+</head>
+<style>
+    label{
+        color: beige;
+    }
+</style>
+<body id="b1">
+    <div class="container" id="c1" >
+    <h1 class="text-center my-5" >what's the best way for employers to contact you?</h1>
+    <form action="" method="POST">
+    <fieldset id="bg1" style="width: 1200px;" >
+        <legend>Personal Information</legend>
+     <div class="row">
+        <div class="col-md-6">
+            <div class="form-group">
+                <label for="fname">First Name</label>
+                <input type="text" onchange="getEmail('fname')" id="fname" placeholder="e.g Varun" class="form-control" >
+            </div>
+
+        </div>
+        <div class="col-md-6">
+            <div class="form-group">
+                <label for="lname">Last Name</label>
+                <input type="text" onchange="getEmail('lname')" id="lname" placeholder="e.g Mishra" class="form-control">
+            </div>
+
+        </div>
+        <div class="col-md-12">
+            <div class="form-group">
+                <label for="profession">profession</label>
+                <input type="text" onchange="getEmail('profession')" id="profession" placeholder="e.g Software Engineering" class="form-control">
+            </div>
+
+        </div>
+        <div class="col-md-6">
+            <div class="form-group">
+                <label for="city">City</label>
+                <input type="text" onchange="getEmail('City')" id="City" placeholder="e.g tirupati" class="form-control">
+            </div>
+
+        </div>
+        <div class="col-md-3">
+            <div class="form-group">
+                <label for="country">Country</label>
+                <input type="text" onchange="getEmail('country')" id="country" placeholder="e.g india" class="form-control">
+            </div>
+
+        </div>
+        <div class="col-md-3">
+            <div class="form-group">
+                <label for="pncode">Pin Code</label>
+                <input type="text" onchange="getEmail('pncode')" id="pncode" placeholder="e.g 515-122" class="form-control">
+            </div>
+
+        </div>
+        <div class="col-md-6">
+            <div class="form-group">
+                <label for="phno">Phone Number</label>
+                <input type="number" onchange="getEmail('phno')" id="phno" placeholder="e.g 9023456712" class="form-control" required>
+            </div>
+
+        </div>
+        <div class="col-md-6">
+            <div class="form-group">
+                <label for="email">Email Adress</label>
+                <input type="email"  onchange="getEmail('email')" id="email" placeholder="e.g varun@gmail.com " class="form-control" required>
+            </div>
+
+        </div>
+    </form>
+     </div>
+    </fieldset> <br> 
+    <a href="home1.html"><button style="margin-left: 80px">Back</button></a> 
+    <a href="educationdetails.html"><button type="submit" style="margin-left: 800px" onclick="script.js">Next</button></a> 
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>

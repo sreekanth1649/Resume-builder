@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="index.css">
+
+    <title>Education Details</title>
+</head>
+<body id="b3">
+    <div class="container" id="c3">
+    <h1 class="text-center my-3" >Tell us about your education</h1> <strong><hr style="color: #1b998b;"></strong>
+    <fieldset id="bg3" style="width: 1200px;" >
+        <legend>Education Details</legend>
+        <div class="row">
+            <fieldset id="bg31" style="width: 1200px;" >
+                <legend>Secondary Education </legend>
+                <div class="row">
+                <div class="col-md-4" >
+                    <div class="form-group">
+                        <label for="class">Class</label>
+                        <input type="text" onchange="getEmail('class')" id="class" placeholder="e.g 1-10" class="form-control" >
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label for="spercent">Percentage</label>
+                        <input type="percent" onchange="getEmail('spercent')" id="spercent" placeholder="e.g 90" class="form-control">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label for="sdur">Duration</label>
+                        <input type="text" onchange="getEmail('sdur')" id="sdur" placeholder="e.g 2010-2020 " class="form-control">
+                    </div>
+                </div>
+                <div class="col-md-6" >
+                    <div class="form-group">
+                        <label for="sname">School Name</label>
+                        <input type="text" onchange="getEmail('sname')" id="sname" placeholder="e.g High school" class="form-control">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="scity">School City</label>
+                        <input type="text" onchange="getEmail('scity')" id="scity" placeholder="e.g tirupati" class="form-control">
+                    </div>
+                </div>
+            </fieldset>
+                <fieldset id="bg32" style="width: 1200px;" >
+                    <legend>Intermediate Education </legend>
+                    <div class="row">
+                    <div class="col-md-4" >
+                        <div class="form-group">
+                            <label for="cclass">Class</label>
+                            <input type="text" onchange="getEmail('cclass')" id="cclass" placeholder="e.g 11-12" class="form-control" >
+                        </div>
+                    </div>
+                    <div class="col-md-4" >
+                        <div class="form-group">
+                            <label for="clpercent">Percentage</label>
+                            <input type="percent" onchange="getEmail('clpercent')" id="clpercent" placeholder="e.g 90" class="form-control">
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label for="cldur">Duration</label>
+                         <input type="text" onchange="getEmail('cldur')" id="cldur" placeholder="e.g 2021-2023 " class="form-control">
+                        </div>
+                    </div>
+                    <div class="col-md-6" >
+                        <div class="form-group">
+                            <label for="clname">College Name</label>
+                            <input type="text" onchange="getEmail('clname')" id="clname" placeholder="e.g narayana college" class="form-control">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="clcity">College  City</label>
+                            <input type="text" onchange="getEmail('clcity')" id="clcity" placeholder="e.g tirupati" class="form-control">
+                        </div>
+                    </div>
+                </fieldset>
+                    <fieldset id="bg33" style="width: 1200px;" >
+                        <legend>Under Graduation</legend>
+                        <div class="row">
+                    <div class="col-md-4">
+                     <div class="form-group">
+                            <label for="degree">Degree name</label>
+                            <input type="text" onchange="getEmail('degree')" id="degree" placeholder="e.g Bachelor of Technology" class="form-control">
+                     </div>
+                    </div>
+                    <div class="col-md-4" >
+                        <div class="form-group">
+                            <label for="dclpercent">Percentage</label>
+                            <input type="percent" onchange="getEmail('dclpercent')" id="dclpercent" placeholder="e.g 90" class="form-control">
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label for="dcldur">Duration</label>
+                            <input type="text" onchange="getEmail('dcldur')" id="dcldur" placeholder="e.g 2023-2027 " class="form-control">
+                        </div>
+                    </div>
+                    <div class="col-md-6" >
+                        <div class="form-group">
+                            <label for="dclname">College Name</label>
+                            <input type="text" onchange="getEmail('dclname')" id="dclname" placeholder="e.g vidyanikethan college" class="form-control">
+                     </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="dclcity">College  City</label>
+                            <input type="text" onchange="getEmail('dclcity')" id="dclcity" placeholder="e.g tirupati" class="form-control">
+                        </div>
+                    </div>
+                </fieldset>
+        </div>
+    </fieldset> <br> 
+    </div>
+    <a href="personalinfo.html"><button style="margin-left: 150px;">Back</button></a>
+    <a href="skills&certificate.html"><button style="margin-left: 1000px;">Next</button></a>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="script.js"> </script>
+</body>
+</html>

@@ -1,0 +1,94 @@
+#b1{
+    background-color: rgb(215, 195, 18);
+}
+#b2{
+    background-color:rgb(22, 237, 172);
+}
+#b3{
+    background-color: rgb(176, 127, 36);}
+#b5{
+    background-color: aqua;
+}
+#bg1{
+    padding-left: 12%;
+   background-image: url(flat-lay-minimalism-style-back-school-concept_511816-3316.avif);
+    padding-right: 12%;
+    padding-bottom: 10%;
+    padding-top: 8%;
+  
+}
+#bg2{
+    padding-left: 12%;
+    background-image: url(magnifying-glass-blue-background-wallpaper-copy-space-symbol-decoration-ornament-hr-human-recruitment-research-discovery-work-job-career-resume-interview-hiring-employment-choice-focus-3d-render-photo.jpg);
+     padding-right: 12%;
+     padding-bottom: 10%;
+     padding-top: 8%;
+     box-shadow: 10px 10px white;
+    border-radius: 50px;
+    border-color: rgb(251, 252, 255);
+   
+}
+#bg3{
+    padding-left: 3%;
+   background-color: #FFE1A8;
+    padding-right: 3%;
+    padding-bottom: 3%;
+    padding-top: 3%;
+    box-shadow: 10px 10px rgb(211, 142, 78);
+    border-radius: 50px;
+    margin-left: 60px;
+
+}
+#bg4{
+    padding: 3%;
+}
+#bg5{
+    padding-left: 12%;
+    background-image: url(magnifying-glass-blue-background-wallpaper-copy-space-symbol-decoration-ornament-hr-human-recruitment-research-discovery-work-job-career-resume-interview-hiring-employment-choice-focus-3d-render-photo.jpg);
+     padding-right: 12%;
+     padding-bottom: 10%;
+     padding-top: 8%;
+     box-shadow: 10px 10px white;
+    border-radius: 50px;
+    border-color: rgb(251, 252, 255);
+   
+}
+#bg31{
+    padding: 2%;
+}
+#bg32{
+    padding: 2%;
+}
+#bg33{
+    padding: 2%;
+}
+button {
+    padding: 10px 35px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  button:hover {background-color: #3e8e41}
+  
+  button:active {
+    background-color: #223046;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+#c1{
+    margin-left: 150px;
+    margin-bottom: 40px;
+
+}
+#c2{
+    margin-left: 150px;
+    margin-bottom: 40px;
+    
+}
